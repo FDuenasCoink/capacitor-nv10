@@ -1,6 +1,8 @@
 import { NV10 as NV10Addon } from '@fduenascoink/oink-addons';
 import type { Bill, INV10, UnsubscribeFunc } from '@fduenascoink/oink-addons';
+import { app } from 'electron';
 import { EventEmitter } from 'events';
+import { join } from 'path';
 
 import type { ChannelData, ChannelInfo, DeviceStatus, NV10Plugin, ResponseStatus } from '../../src/definitions';
 
@@ -19,10 +21,11 @@ export class NV10 extends EventEmitter implements NV10Plugin {
   constructor() {
     super();
     const config = getCapacitorElectronConfig('NV10');
+    const logsPath = app.getPath('documents');
     this.nv10 = new NV10Addon({
       maximumPorts: config.maximumPorts ?? 10,
       logLevel: config.logLevel ?? 1,
-      logPath: 'logs/nv10.log',
+      logPath: join(logsPath, 'oink-logs', 'nv10.log'),
     });
   }
 
