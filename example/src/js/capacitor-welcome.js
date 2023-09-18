@@ -1,5 +1,5 @@
 import { SplashScreen } from '@capacitor/splash-screen';
-import { Camera } from '@capacitor/camera';
+import { NV10 } from '@fduenascoink/capacitor-nv10';
 
 window.customElements.define(
   'capacitor-welcome',
@@ -93,20 +93,11 @@ window.customElements.define(
       const self = this;
 
       self.shadowRoot.querySelector('#take-photo').addEventListener('click', async function (e) {
-        try {
-          const photo = await Camera.getPhoto({
-            resultType: 'uri',
-          });
-
-          const image = self.shadowRoot.querySelector('#image');
-          if (!image) {
-            return;
-          }
-
-          image.src = photo.webPath;
-        } catch (e) {
-          console.warn('User cancelled', e);
-        }
+        await NV10.init();
+        await NV10.startReader();
+        NV10.addListener('billInsert', (event) => {
+          console.log(event);
+        });
       });
     }
   }

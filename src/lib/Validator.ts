@@ -134,6 +134,9 @@ export class Validator {
   }
 
   private generateButton(value: string | number, options?: { disabled?: boolean }) {
+    if (typeof value === 'number') {
+      value = value >= 1_000 ? `${value/1_000}k` : `${value}`;
+    }
     const btn = document.createElement('button');
     btn.disabled = options?.disabled ?? false;
     btn.innerText = `${value}`;
