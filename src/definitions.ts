@@ -83,8 +83,8 @@ export interface NV10Plugin {
   /**
    * Listens for coin read.
    */
-  addListener(eventName: 'billInsert', listenerFunc: (event: BillEvent) => void): Promise<PluginListenerHandle> & PluginListenerHandle;
-  addListener(eventName: 'billInsertWarning', listenerFunc: (event: BillEventWarning) => void): Promise<PluginListenerHandle> & PluginListenerHandle;
+  addListener(eventName: 'billInsert', listenerFunc: (event: BillEvent) => void): Promise<PluginListenerHandle> & PluginListenerHandle | string;
+  addListener(eventName: 'billInsertWarning', listenerFunc: (event: BillEventWarning) => void): Promise<PluginListenerHandle> & PluginListenerHandle | string;
   /**
    * Removes all listeners
    */
@@ -92,8 +92,6 @@ export interface NV10Plugin {
 }
 
 export interface NV10PluginElectron extends NV10Plugin {
-  removeListener?(event: string): void & Promise<void>;
+  removeListener?(listenerId: string): void & Promise<void>;
   removeAllListeners(type?: string): void & Promise<void>;
-  addListener(eventName: 'billInsert', listenerFunc: (event: BillEvent) => void): Promise<PluginListenerHandle> & PluginListenerHandle & string;
-  addListener(eventName: 'billInsertWarning', listenerFunc: (event: BillEventWarning) => void): Promise<PluginListenerHandle> & PluginListenerHandle & string;
 }
