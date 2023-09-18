@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com.git"
+    "url": "git+https://github.com/FDuenasCoink/capacitor-nv10.git"
   },
   "bugs": {
-    "url": "https://github.com/issues"
+    "url": "https://github.com/FDuenasCoink/capacitor-nv10"
   },
   "keywords": [
     "capacitor",
