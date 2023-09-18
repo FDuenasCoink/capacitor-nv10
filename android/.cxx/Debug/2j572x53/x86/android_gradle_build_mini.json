@@ -1,0 +1,45 @@
+{
+  "buildFiles": [
+    "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/CMakeLists.txt",
+    "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/nv10/CMakeLists.txt",
+    "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/CMakeLists.txt",
+    "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/cmake/ide.cmake",
+    "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/cmake/utils.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/coink/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/coink/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "NV10::@68af37f7bedc10b7b958": {
+      "artifactName": "NV10",
+      "abi": "x86",
+      "output": "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86/libNV10.so",
+      "runtimeFiles": []
+    },
+    "NV10_Wrapper::@68af37f7bedc10b7b958": {
+      "artifactName": "NV10_Wrapper",
+      "abi": "x86",
+      "output": "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86/libNV10_Wrapper.so",
+      "runtimeFiles": [
+        "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86/libNV10.so"
+      ]
+    },
+    "spdlog::@d269c8109d32a9027337": {
+      "artifactName": "spdlog",
+      "abi": "x86",
+      "output": "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/x86/spdlog/libspdlogd.a",
+      "runtimeFiles": []
+    }
+  }
+}

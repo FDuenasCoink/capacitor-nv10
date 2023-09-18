@@ -1,0 +1,3 @@
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10Control.java
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJNI.java
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/nv10/NV10Control.i

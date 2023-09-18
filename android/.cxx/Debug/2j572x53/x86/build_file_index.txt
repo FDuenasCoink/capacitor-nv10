@@ -1,0 +1,5 @@
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/CMakeLists.txt
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/nv10/CMakeLists.txt
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/CMakeLists.txt
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/cmake/ide.cmake
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/cmake/utils.cmake

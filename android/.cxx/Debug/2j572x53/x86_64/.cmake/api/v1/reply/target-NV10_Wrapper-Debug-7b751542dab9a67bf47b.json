@@ -1,0 +1,230 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86_64/libNV10_Wrapper.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"swig_add_library",
+			"target_link_libraries",
+			"swig_link_libraries",
+			"include_directories",
+			"set_property",
+			"SWIG_ADD_SOURCE_TO_MODULE"
+		],
+		"files" : 
+		[
+			"/Users/coink/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/UseSWIG.cmake",
+			"nv10/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 905,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1034,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 888,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Wall -std=c++14 -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : ""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "NV10_Wrapper_EXPORTS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/nv10/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp/spdlog/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/coink/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "spdlog::@d269c8109d32a9027337"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "NV10::@68af37f7bedc10b7b958"
+		}
+	],
+	"id" : "NV10_Wrapper::@68af37f7bedc10b7b958",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86_64/libNV10.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/coink/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/22/liblog.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "spdlog/libspdlogd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/coink/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "NV10_Wrapper",
+	"nameOnDisk" : "libNV10_Wrapper.so",
+	"paths" : 
+	{
+		"build" : "nv10",
+		"source" : "nv10"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJAVA_wrap.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10Control.java",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJNI.java",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "nv10/NV10Control.i",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

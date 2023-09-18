@@ -1,0 +1,20 @@
+# ninja log v5
+1	470	1695055062517937251	nv10/CMakeFiles/NV10.dir/StateMachine.cpp.o	5171255cef2b97af
+1	481	1695055062530103515	spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o	bc41ba520d4eb628
+1	525	1695055062573054537	spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o	b7b1aa27fa5755ae
+2	537	1695055062584866179	nv10/CMakeFiles/NV10.dir/NV10Control.cpp.o	8ea9fa909e92fee
+1	613	1695055062661271228	spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o	e81228163f4c4a01
+1	667	1695055062714001994	spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o	16c87761c22974fd
+1	670	1695055062716302765	spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o	16b99cece18a5918
+1	803	1695055062849578500	spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o	9e0faa6f0fbdb188
+1	1043	1695055063087631691	nv10/CMakeFiles/NV10.dir/ValidatorNV10.cpp.o	f09df5c97701fece
+0	1594	1695055063632634232	spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o	b97b6b4124f6bb0
+1594	1633	1695055063685345000	spdlog/libspdlogd.a	104272c8bb76c457
+1633	1725	1695055063737063857	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/arm64-v8a/libNV10.so	407bd8b4ded36679
+1725	1874	1695055063925736251	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJAVA_wrap.cxx	6f54eed38a7720a7
+1725	1874	1695055063925736251	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10Control.java	6f54eed38a7720a7
+1725	1874	1695055063925736251	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJNI.java	6f54eed38a7720a7
+1874	2187	1695055064236783646	nv10/CMakeFiles/NV10_Wrapper.dir/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJAVA_wrap.cxx.o	180a37ae66d5edcf
+2187	2224	1695055064270701627	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/arm64-v8a/libNV10_Wrapper.so	fef7b57cfbd5239d
+2	384	1695055450760340373	nv10/CMakeFiles/NV10_Wrapper.dir/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJAVA_wrap.cxx.o	180a37ae66d5edcf
+384	485	1695055450859293716	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/arm64-v8a/libNV10_Wrapper.so	fef7b57cfbd5239d

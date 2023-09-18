@@ -1,0 +1,1 @@
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86_64

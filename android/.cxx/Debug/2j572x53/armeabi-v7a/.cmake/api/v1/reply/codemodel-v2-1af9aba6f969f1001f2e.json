@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "spdlog",
+					"jsonFile" : "directory-spdlog-Debug-d69c2b3088863f15321d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "spdlog",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "nv10",
+					"jsonFile" : "directory-nv10-Debug-3bcb4350429aaf392c35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "nv10",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "oink"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "NV10",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "NV10::@68af37f7bedc10b7b958",
+					"jsonFile" : "target-NV10-Debug-9738090d5a89227580c6.json",
+					"name" : "NV10",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NV10_Wrapper::@68af37f7bedc10b7b958",
+					"jsonFile" : "target-NV10_Wrapper-Debug-a093b5bc7e4452966a74.json",
+					"name" : "NV10_Wrapper",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@d269c8109d32a9027337",
+					"jsonFile" : "target-spdlog-Debug-03173358262bc119b84b.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a",
+		"source" : "/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

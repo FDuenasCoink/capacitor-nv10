@@ -1,0 +1,9 @@
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/spdlog/CMakeFiles/spdlog.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/spdlog/CMakeFiles/edit_cache.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/spdlog/CMakeFiles/rebuild_cache.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/nv10/CMakeFiles/NV10.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/nv10/CMakeFiles/NV10_Wrapper.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/nv10/CMakeFiles/edit_cache.dir
+/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/.cxx/Debug/2j572x53/armeabi-v7a/nv10/CMakeFiles/rebuild_cache.dir

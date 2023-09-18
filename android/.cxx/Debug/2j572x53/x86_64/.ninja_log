@@ -1,0 +1,18 @@
+# ninja log v5
+2	373	1695055069884243287	nv10/CMakeFiles/NV10.dir/StateMachine.cpp.o	886e70e14409d3e8
+1	375	1695055069887038927	spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o	a6c73f030c7c6c03
+1	419	1695055069928870627	spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o	515b554d3a3d9214
+2	431	1695055069943646158	nv10/CMakeFiles/NV10.dir/NV10Control.cpp.o	a839d49fea99ecd2
+0	540	1695055070051051673	spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o	706502c002364ab2
+1	559	1695055070069331880	spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o	afabd2d68c12f421
+1	562	1695055070072508351	spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o	55302c5a911ae768
+0	590	1695055070101454002	spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o	8c91a4a47f2b66b4
+1	830	1695055070339095030	nv10/CMakeFiles/NV10.dir/ValidatorNV10.cpp.o	4baa478b5470b0df
+0	1308	1695055070810586578	spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o	e31f26a97571fa76
+1308	1335	1695055070849735000	spdlog/libspdlogd.a	104272c8bb76c457
+1335	1422	1695055070900511712	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86_64/libNV10.so	f0fa0f8bbe2d26da
+1422	1564	1695055071079030907	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJAVA_wrap.cxx	5ba10e83545fad7e
+1422	1564	1695055071079030907	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10Control.java	5ba10e83545fad7e
+1422	1564	1695055071079030907	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJNI.java	5ba10e83545fad7e
+1564	1864	1695055071376845716	nv10/CMakeFiles/NV10_Wrapper.dir/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/src/main/java/hardware/nv10/NV10ControlJAVA_wrap.cxx.o	54a3d87b5dd6c430
+1864	1902	1695055071411354733	/Users/coink/Desktop/projects/oink-hardware-plugins/capacitor-nv10/android/build/intermediates/cxx/Debug/2j572x53/obj/x86_64/libNV10_Wrapper.so	d11654ad1c2738c5
