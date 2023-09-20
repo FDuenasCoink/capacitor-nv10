@@ -83,7 +83,7 @@ export class NV10 extends EventEmitter implements NV10Plugin {
   }
 
   async startReader(): Promise<ResponseStatus> {
-    this.unsubscribeFn?.();
+    await this.unsubscribe();
     const response = this.nv10.startReader();
     const status = response.statusCode;
     if (status !== 200 && status !== 203) {
@@ -95,7 +95,7 @@ export class NV10 extends EventEmitter implements NV10Plugin {
   }
   
   async stopReader(): Promise<ResponseStatus> {
-    this.unsubscribeFn?.();
+    await this.unsubscribe();
     const response = this.nv10.startReader();
     const status = response.statusCode;
     if (status !== 202 && status !== 203) {
@@ -114,14 +114,14 @@ export class NV10 extends EventEmitter implements NV10Plugin {
       const error = { code: bill.statusCode, message: bill.message };
       this.emit(NV10.BILL_INSERT_EVENT, event);
       this.emit(NV10.BILL_INSERT_EVENT, { error, value: 0 });
-      this.unsubscribeFn?.();
+      await this.unsubscribe();
       return
     }
 
     if (status >= 400) {
       const error = { code: bill.statusCode, message: bill.message };
       this.emit(NV10.BILL_INSERT_EVENT, { error, value: 0 });
-      this.unsubscribeFn?.();
+      await this.unsubscribe();
       return;
     }
 
@@ -157,7 +157,7 @@ export class NV10 extends EventEmitter implements NV10Plugin {
         if (error instanceof PluginError) {
           const errorData = { message: error.message, code: error.code };
           this.emit(NV10.BILL_INSERT_EVENT, { error: errorData });
-          this.unsubscribeFn?.();
+          await this.unsubscribe();
           return
         }
         const errorData = { message: 'unknown error', code: 0 };
@@ -179,6 +179,16 @@ export class NV10 extends EventEmitter implements NV10Plugin {
   // @ts-ignore
   removeListener(event: string | symbol, listener: (...args: any[]) => void): any {
     return super.removeListener(event, listener);
+  }
+
+  private sleep() {
+    return new Promise(resolve => setTimeout(resolve, 800));
+  }
+
+  private async unsubscribe() {
+    if (!this.unsubscribeFn) return;
+    this.unsubscribeFn?.();
+    await this.sleep();
   }
 
 }
