@@ -1,6 +1,6 @@
 {
   "name": "@fduenascoink/capacitor-nv10",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Plugin to control nv10 validator from capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

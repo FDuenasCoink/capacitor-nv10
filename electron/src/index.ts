@@ -189,6 +189,7 @@ export class NV10 extends EventEmitter implements NV10Plugin {
     if (!this.unsubscribeFn) return;
     this.unsubscribeFn?.();
     await this.sleep();
+    this.unsubscribeFn = undefined;
   }
 
 }
