@@ -14,7 +14,7 @@ export default {
   ],
   external: [
     '@capacitor/core',
-    '@fduenascoink/oink-addons',
+    '@fduenascoink/nv10-addon',
     'electron',
     'path',
     'fs',
