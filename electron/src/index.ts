@@ -1,5 +1,5 @@
-import { NV10 as NV10Addon } from '@fduenascoink/oink-addons';
-import type { Bill, INV10, UnsubscribeFunc } from '@fduenascoink/oink-addons';
+import { NV10 as NV10Addon } from '@fduenascoink/nv10-addon';
+import type { Bill, INV10, UnsubscribeFunc } from '@fduenascoink/nv10-addon';
 import { app } from 'electron';
 import { EventEmitter } from 'events';
 import { join } from 'path';
